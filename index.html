@@ -47,6 +47,21 @@
             padding: 10px; /* Padding dentro de la lista */
             border-radius: 5px; /* Esquinas redondeadas */
         }
+        .price {
+            color: #ffcc00; /* Color del precio */
+            font-size: 1.2em; /* Tamaño del texto del precio */
+            margin-top: 5px; /* Espaciado encima del precio */
+        }
+        .corner-text {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: #ffcc00; /* Color del texto */
+            font-size: 1.2em; /* Tamaño del texto */
+            background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+            padding: 5px 10px; /* Espaciado alrededor del texto */
+            border-radius: 5px; /* Esquinas redondeadas */
+        }
     </style>
 </head>
 <body>
@@ -54,27 +69,65 @@
     <h1>BRYN BODEGA</h1>
     <p>Estos son los más destacados al momento:</p>
 
+    <div class="corner-text">venda a l'engrós i al detall</div>
+
     <h2>Aguardiente Antioqueño</h2>
-    <img src="imagenes/guaroazul.jpeg" alt="Aguardiente Antioqueño 1">
-    <img src="imagenes/guarorojo2.jpg" alt="Aguardiente Antioqueño 2">
-    <img src="imagenes/guaro verde.webp" alt="Aguardiente Antioqueño 3">
-    <img src="imagenes/guraoamarillo.png" alt="Aguardiente Antioqueño 4">
+    <div>
+        <img src="imagenes/guaroazul.jpeg" alt="Aguardiente Antioqueño 1">
+        <div class="price">Precio: €12,69</div> <!-- 12,69€ -->
+    </div>
+    <div>
+        <img src="imagenes/guarorojo2.jpg" alt="Aguardiente Antioqueño 2">
+        <div class="price">Precio: €15,00</div> <!-- 15,00€ -->
+    </div>
+    <div>
+        <img src="imagenes/guaro verde.webp" alt="Aguardiente Antioqueño 3">
+        <div class="price">Precio: €13,45</div> <!-- 14,95€-->
+    </div>
+    <div>
+        <img src="imagenes/guraoamarillo.png" alt="Aguardiente Antioqueño 4">
+        <div class="price">Precio: €14,65</div> <!-- 14,65€ -->
+    </div>
 
     <h2>Jhonnie Walker</h2>
-    <img src="imagenes/redlabel.jpeg" alt="Jhonnie Walker Red Label">
-    <img src="imagenes/black label.jpeg" alt="Jhonnie Walker Black Label">
-    <img src="imagenes/blue label.jpeg" alt="Jhonnie Walker Blue Label">
-    <img src="imagenes/double black.jpg" alt="jhonnie Walker double black">
+    <div>
+        <img src="imagenes/redlabel.jpeg" alt="Jhonnie Walker Red Label">
+        <div class="price">Precio: €14,54</div> <!-- 14,54€ -->
+    </div>
+    <div>
+        <img src="imagenes/black label.jpeg" alt="Jhonnie Walker Black Label">
+        <div class="price">Precio: €27,75</div> <!-- 27,75€ -->
+    </div>
+    <div>
+        <img src="imagenes/blue label.jpeg" alt="Jhonnie Walker Blue Label">
+        <div class="price">Precio: €249,60</div> <!-- 249,60€-->
+    </div>
+    <div>
+        <img src="imagenes/double black.jpg" alt="jhonnie Walker double black">
+        <div class="price">Precio: €35,60</div> <!-- 35,60€ -->
+    </div>
 
     <h2>Old Parr</h2>
-    <img src="imagenes/old parr.jpeg" alt="Old Parr">
+    <div>
+        <img src="imagenes/old parr.jpeg" alt="Old Parr">
+        <div class="price">Precio: €42,10</div> <!-- 42,10€ -->
+    </div>
 
     <h2>Buchannan's Deluxe</h2>
-    <img src="imagenes/buchannan's.jpeg" alt="Buchannan's Deluxe">
+    <div>
+        <img src="imagenes/buchannan's.jpeg" alt="Buchannan's Deluxe">
+        <div class="price">Precio: €46,29</div> <!-- 46,29€ -->
+    </div>
 
     <h2>Chivas Regal</h2>
-    <img src="imagenes/chivas azul.jpeg" alt="Chivas Regal 12 Años">
-    <img src="imagenes/chivas roja.jpeg" alt="Chivas Regal 18 Años">
+    <div>
+        <img src="imagenes/chivas azul.jpeg" alt="Chivas Regal 12 Años">
+        <div class="price">Precio: €68,45</div> <!-- 29,60€-->
+    </div>
+    <div>
+        <img src="imagenes/chivas roja.jpeg" alt="Chivas Regal 18 Años">
+        <div class="price">Precio: €29,60</div> <!-- 29,60€ -->
+    </div>
 
     <h2>¿Dónde estamos ubicados?</h2>
     <p>
